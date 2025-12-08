@@ -18,10 +18,16 @@
     "id": 4,
     "name": "Anil",
     "role": "Fullstack Develope"
-  }
+  },
   {
     "id": 5,
     "name": "July",
     "role": "Month"
+  },
+  {
+    "id": 6,
+    "name": "Monday",
+    "role": "weekday"
   }
+
 ]
