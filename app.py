@@ -12,10 +12,8 @@ def get_data():
             
         return jsonify(data)
     except Exception as e:
-        return e
-@app.route('/todo')
-def todo_page():
-    return render_template("todo.html")
+        return jsonify({"error": str(e)}), 400
+        
 
 if __name__ == "__main__":
     app.run(debug=True)
